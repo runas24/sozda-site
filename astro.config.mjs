@@ -10,8 +10,8 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
-  base: config.site.base_path ? config.site.base_path : "/",
+  site: "https://runas24.github.io/sozda-site/", // Замените на ваше имя пользователя и название репозитория
+  base: "/sozda-site/",  // Убедитесь, что здесь указан правильный базовый путь
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
     service: squooshImageService(),
