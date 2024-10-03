@@ -1,8 +1,9 @@
 {
   "site": {
     "title": "Создай сайт",
-    "base_url": "https://sozda-site.ru",
-    "base_path": "/",
+   "base_url": "https://runas24.github.io",
+"base_path": "/sozda-site/",
+
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
